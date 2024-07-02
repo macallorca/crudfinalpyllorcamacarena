@@ -1,0 +1,193 @@
+/* Estilos para todo el proyecto */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right,
+        #9c64b1,   /* lila */
+        #aa66d6,   /* lila claro */
+        #d094f5,   /* violeta claro */
+        #a8e6ff,   /* azul claro */
+        #8ff3a5,   /* verde claro */
+        #8ff7c9,   /* verde agua claro */
+        #9af7e3,   /* verde agua más claro */
+        #81e0f7,   /* azul claro */
+        #82d5f7,   /* azul más claro */
+        #7ec8f7,   /* azul muy claro */
+        #f7b0e7,   /* rosa */
+        #f7c1e8,   /* rosa claro */
+        #f7cce8,   /* rosa muy claro */
+        #ffdca6,   /* amarillo claro */
+        #ffe6a6    /* amarillo */
+    );
+    color: white;
+}
+
+.contenedor-centrado {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 35px;
+}
+
+.navbar-index {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: fixed !important;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.logo-nav {
+    height: 120%;
+    overflow: hidden;
+    margin-left: 5em;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color:  #f9f9f9;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c1b7d7;
+    border: 1px solid #e0d5f7;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #c1b7d7;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+table tr {
+    text-align: center;
+}
+
+table td {
+    padding: 10px;
+}
+
+table a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #c9935c; /* Color de fondo base */
+    font-size: 95%;
+    font-weight: 800;
+}
+
+
+.boton-altas{background-color: #6a67ce; /* Color 1 */}
+
+.boton-listado{background-color: #92c390; /* Color 2 */}
+
+.boton-modificaciones{background-color: #e180bf; /* Color 3 */}
+
+.boton-eliminar{background-color: #f8b977; /* Color 4 */}
+
+.boton-altas:hover {
+    background-color: #b434db; /* Color 1 al hacer hover */
+}
+
+.boton-listado:hover {
+    background-color: #2bc123; /* Color 2 al hacer hover */
+}
+
+.boton-modificaciones:hover {
+    background-color: #da31d4; /* Color 3 al hacer hover */
+}
+
+.boton-eliminar:hover {
+    background-color: #e47d28; /* Color 4 al hacer hover */
+}
+
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px;
+    margin: 4px;
+    background-color: #539e51;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b550b;
+}
+
+a {
+    padding: 8px;
+    margin: 4px;
+    background-color: #c9935c;
+    color: #e0d5f7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 95%;
+    font-weight: 800;
+}
+
+a:hover {
+    background-color: #ba7aba; /* Otro color entre rosa y violeta */
+}
